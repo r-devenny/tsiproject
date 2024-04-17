@@ -11,7 +11,7 @@ public class GetWords {
     public List<String> getWords() {
         List<String> words = new ArrayList<String>();
         try {
-            words = Files.readAllLines(Paths.get("words.txt"), StandardCharsets.UTF_8);
+            words = Files.readAllLines(Paths.get("resources/words.txt"), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }
