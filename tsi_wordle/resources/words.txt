@@ -1,1 +1,10 @@
-test
+apple
+peach
+beach
+coast
+green
+lemon
+music
+river
+chair
+light
